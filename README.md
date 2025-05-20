@@ -1,12 +1,10 @@
-1. Struktur Kontrol Percabangan Pemberian Diskon
-   -  Fungsi Hitung_total_bayar: yaitu untuk menerima total_belanja sebagai argumen.
-   -  if total_belanja > 500000: yaitu untuk memeriksa apakah total belanja lebih dari Rp500.000.
-   -  jika benar, diskon 10% dihitung (total_belanja *0.1), dan total bayar adalah: total belanja dikurangi diskon. Pesan diskon  akan di berikan juga dicetak.
-   -  jika salah, (menggunakan else), total bayar sama dengan total belanja awal, dan pesan bahwa diskon tidak berlaku dicetak.
-   -  fungsi mengembalikan nilai total_bayar.
-   -  loop while true: untuk meminta input total belanja dari pengguna hingga input valid(angka non-negatif) diberikan.
-   -  blok try-except: yaitu untuk menangani error jika pengguna memasukkan input bukan angka.
-   -  hitung_total_bayar: yaitu untuk memastikan input total belanja dari pengguna, dan hasilnya disimpan di variabel total_bayar.
-   -  program mencetak total bayar yang harus dibayar oleh pelanggan, di hasilkan dengan dua angka desimal dan simbol "Rp"
-2. Program Peran Data dan Operator
-   -input (): 
+1. Penjelasan Penggunaan Struktur Kontrol Percabangan Pemberian Diskon
+   Struktur kontrol percabangan (if,elif,else) digunakan untuk menentukan apakah seorang berhak mendapatkan diskon. Pemberian dikson bergantung pada kondisi tertentu, yaitu total belanja pelanggan.
+-Kondisi utama yang diperiksa: Apakah total_belanja lebih besar dari Rp500.000.
+-Percabangan if: jika kondisi total_belanja > 500000 bernilai true, maka program akan menjalankan blok kode yang ada di dalam if. Blok ini berisi instruksi untuk menghitung besaran diskon (10% dari total belanja) lalu hitung total bayar setelah dikurangi diskon.
+-Percabangan else: yaitu jika kondisi total_belanja > 500000 bernilai false (artinya total belanja kurang dari atau sama dengan Rp500.000.), lalu program akan menjalankan blok kode yang ada di dalam else. Tidak hanya menampilkan total bayar tanpa diskon, Karena pelanggan tidak memenuhi syarat untuk mendapatkan diskon.
+-Program dapat secara otomatis membuat keputusan apakah diskon perlu di terapkan atau tidak yang berdasarkan input total belanja dari pengguna.
+3. Penjelasan peran tipe data dan operator
+   Perhitungan rata-rata nilai dapat di selesaikan untuk menentukan status kelulusan, dapat digunakan dengan tipe data dan operator sebagai berikut:
+   -Float atau int:
+   
